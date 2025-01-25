@@ -3,24 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { FaUser } from "react-icons/fa";
-import { RiArrowDropDownLine } from "react-icons/ri";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { IoIosArrowDown } from "react-icons/io";
 
 const Navbar = () => {
-  const [dropdownVisible, setDropdownVisible] = useState(false); // State to control dropdown visibility
-  const [selectedItem, setSelectedItem] = useState("Mobile"); // State to track the selected item
-
-  const handleItemClick = (item) => {
-    setSelectedItem(item); // Update the button text
-    setDropdownVisible(false); // Close the dropdown after selection
-  };
-
   return (
     <div>
       {/* nav top */}
       <div className="bg-[#F2F3F5]">
-        <div className="flex justify-between items-center max-w-6xl mx-auto">
+        <div className="flex justify-between items-center max-w-7xl mx-auto">
           <h2 className="text-[#8D8E8E] text-xl">
             Largest Gadget Site in Bangladesh
           </h2>
@@ -48,7 +39,7 @@ const Navbar = () => {
         </div>
       </div>
       {/* nav middle */}
-      <div className="navbar bg-base-100 px-0 py-4 max-w-6xl mx-auto">
+      <div className="navbar bg-base-100 px-0 py-4 max-w-7xl mx-auto">
         <div className="navbar-start">
           <Link href="/">
             <Image
@@ -59,39 +50,14 @@ const Navbar = () => {
             ></Image>
           </Link>
         </div>
+        {/* kaj korte hoba */}
         <div className="navbar-center">
-          <label className="input input-bordered flex items-center gap-2 relative w-[450px]">
+          <label className="input input-bordered flex items-center gap-2 relative rounded-none">
             <input
               type="text"
-              className="grow"
+              className="grow w-[400px]"
               placeholder="What are you looking for?"
             />
-            {/* Dropdown Button */}
-            <div className="relative">
-              <button
-                className="btn bg-[#D4D4D4] px-8 rounded-none"
-                onClick={() => setDropdownVisible((prev) => !prev)} // Toggle dropdown visibility
-              >
-                {selectedItem} {/* Display the selected item */}
-                <span className="text-2xl">
-                  <RiArrowDropDownLine />
-                </span>
-              </button>
-              {dropdownVisible && ( // Conditionally render the dropdown
-                <ul className="absolute mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg z-20">
-                  {["All", "Mobile", "Laptop", "Tablet"].map((item) => (
-                    <li
-                      key={item}
-                      className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
-                      onClick={() => handleItemClick(item)} // Update the selected item
-                    >
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
-            {/* Search Icon */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -104,6 +70,17 @@ const Navbar = () => {
                 clipRule="evenodd"
               />
             </svg>
+            <div className="absolute right-10">
+              <select
+                className="select select-bordered rounded-none bg-[#D4D4D4]"
+                defaultValue="Mobile"
+              >
+                <option>All</option>
+                <option>Mobile</option>
+                <option>Tablet</option>
+                <option>Laptop</option>
+              </select>
+            </div>
           </label>
         </div>
         <div className="navbar-end">
@@ -118,7 +95,7 @@ const Navbar = () => {
 
       <div className="bg-[#F2F3F5] py-3 shadow-md z-10 relative">
         <nav className="max-w-7xl mx-auto">
-          <ul className="flex space-x-6 justify-center">
+          <ul className="flex space-x-6">
             <li className="hover:text-[#ffa500]">
               <Link href="#">Home</Link>
             </li>

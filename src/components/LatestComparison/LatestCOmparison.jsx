@@ -24,217 +24,189 @@ const LatestCOmparison = () => {
       <div className="p-4 bg-white">
         <div className="grid grid-cols-4 gap-3">
           <div className="border shadow-md p-3">
-            <div className="flex justify-between items-center relative">
-              <div className="text-center">
+            <div className="flex justify-between relative">
+              <div className="flex flex-col items-center text-center">
                 <div className="relative">
                   <Image
                     src="/assets/comparison/1.jpg"
                     width={200}
                     height={200}
                     alt="comparison1"
-                    className="w-[100px] h-[200px] mx-auto"
-                  />
-                  <span className="px-2 py-2 bg-[#629FB6] text-white text-center absolute top-1 right-3 rounded-md">
-                    83%
-                  </span>
+                    // className="w-[100px]"
+                  ></Image>
+                  <div className="absolute top-1 right-1 bg-[#629FB6] px-2 py-1 rounded-md">
+                    <span className="text-white">83%</span>
+                  </div>
                 </div>
-                <h3 className="">Tecno Prova 5 Pro 5G</h3>
-                <p className="text-[#9A3412] text-lg mt-5 font-semibold">
-                  Rs. 14,900
-                </p>
+                <h3 className="mt-2 mb-7">Tecno Prova 5 Pro 5G</h3>
+                <h4 className="font-bold text-[#9A3412] text-lg">Rs. 14,900</h4>
               </div>
-
-              {/* VS Styling */}
-              <div className="relative -top-8">
-                <span className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#629FB6] rounded-full px-2 py-1 text-[#fff] font-semibold border-8 border-white">
-                  VS
-                </span>
-                <span className="block border h-52 mx-10"></span>
+              <div className="relative">
+                <span className="block border mx-6 h-[250px] mt-2"></span>
+                <div className="absolute top-1/4 left-[2.33%] bg-[#629FB6] px-2 py-1 rounded-full border-white border-8">
+                  <p className="text-white">Vs</p>
+                </div>
               </div>
-
-              <div className="text-center">
+              <div className="flex flex-col items-center text-center">
                 <div className="relative">
                   <Image
                     src="/assets/comparison/2.jpg"
                     width={200}
                     height={200}
-                    alt="comparison1"
-                    className="w-[100px] h-[200px] mx-auto"
-                  />
-                  <span className="px-2 py-2 bg-[#629FB6] text-white text-center absolute top-1 left-5 rounded-md">
-                    83%
-                  </span>
+                    alt="comparison2"
+                    // className="w-[100px]"
+                  ></Image>
+                  <div className="absolute top-1 left-1 bg-[#629FB6] px-2 py-1 rounded-md">
+                    <span className="text-white">83%</span>
+                  </div>
                 </div>
-                <h3 className="">Samsung Galaxy M34 5G</h3>
-                <p className="text-[#9A3412] text-lg mt-5 font-semibold">
-                  Rs. 12,900
-                </p>
+                <h3 className="mt-2 mb-7">Samsung Galaxy M34 5G</h3>
+                <h4 className="font-bold text-[#9A3412] text-lg">Rs. 12,900</h4>
               </div>
             </div>
             <div className="text-center mt-4">
-              <button className="btn btn-outline border-2 border-[#629FB6] text-[#629FB6] rounded-md px-10">
+              <button className="btn btn-outline border-2 border-[#629FB6] text-[#629FB6] rounded-md px-10 hover:bg-[#629FB6] hover:border-[#629FB6]">
                 COMPARE
               </button>
             </div>
           </div>
           <div className="border shadow-md p-3">
-            <div className="flex justify-between items-center relative">
-              <div className="text-center">
+            <div className="flex justify-between relative">
+              <div className="flex flex-col items-center text-center">
                 <div className="relative">
                   <Image
                     src="/assets/comparison/1.jpg"
                     width={200}
                     height={200}
                     alt="comparison1"
-                    className="w-[100px] h-[200px] mx-auto"
-                  />
-                  <span className="px-2 py-2 bg-[#629FB6] text-white text-center absolute top-1 right-3 rounded-md">
-                    83%
-                  </span>
+                    // className="w-[100px]"
+                  ></Image>
+                  <div className="absolute top-1 right-1 bg-[#629FB6] px-2 py-1 rounded-md">
+                    <span className="text-white">83%</span>
+                  </div>
                 </div>
-                <h3 className="">Tecno Prova 5 Pro 5G</h3>
-                <p className="text-[#9A3412] text-lg mt-5 font-semibold">
-                  Rs. 14,900
-                </p>
+                <h3 className="mt-2 mb-7">Tecno Prova 5 Pro 5G</h3>
+                <h4 className="font-bold text-[#9A3412] text-lg">Rs. 14,900</h4>
               </div>
-
-              {/* VS Styling */}
-              <div className="relative -top-8">
-                <span className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#629FB6] rounded-full px-2 py-1 text-[#fff] font-semibold border-8 border-white">
-                  VS
-                </span>
-                <span className="block border h-52 mx-10"></span>
+              <div className="relative">
+                <span className="block border mx-6 h-[250px] mt-2"></span>
+                <div className="absolute top-1/4 left-[2.33%] bg-[#629FB6] px-2 py-1 rounded-full border-white border-8">
+                  <p className="text-white">Vs</p>
+                </div>
               </div>
-
-              <div className="text-center">
+              <div className="flex flex-col items-center text-center">
                 <div className="relative">
                   <Image
                     src="/assets/comparison/2.jpg"
                     width={200}
                     height={200}
-                    alt="comparison1"
-                    className="w-[100px] h-[200px] mx-auto"
-                  />
-                  <span className="px-2 py-2 bg-[#629FB6] text-white text-center absolute top-1 left-5 rounded-md">
-                    83%
-                  </span>
+                    alt="comparison2"
+                    // className="w-[100px]"
+                  ></Image>
+                  <div className="absolute top-1 left-1 bg-[#629FB6] px-2 py-1 rounded-md">
+                    <span className="text-white">83%</span>
+                  </div>
                 </div>
-                <h3 className="">Samsung Galaxy M34 5G</h3>
-                <p className="text-[#9A3412] text-lg mt-5 font-semibold">
-                  Rs. 12,900
-                </p>
+                <h3 className="mt-2 mb-7">Samsung Galaxy M34 5G</h3>
+                <h4 className="font-bold text-[#9A3412] text-lg">Rs. 12,900</h4>
               </div>
             </div>
             <div className="text-center mt-4">
-              <button className="btn btn-outline border-2 border-[#629FB6] text-[#629FB6] rounded-md px-10">
+              <button className="btn btn-outline border-2 border-[#629FB6] text-[#629FB6] rounded-md px-10 hover:bg-[#629FB6] hover:border-[#629FB6]">
                 COMPARE
               </button>
             </div>
           </div>
           <div className="border shadow-md p-3">
-            <div className="flex justify-between items-center relative">
-              <div className="text-center">
+            <div className="flex justify-between relative">
+              <div className="flex flex-col items-center text-center">
                 <div className="relative">
                   <Image
                     src="/assets/comparison/1.jpg"
                     width={200}
                     height={200}
                     alt="comparison1"
-                    className="w-[100px] h-[200px] mx-auto"
-                  />
-                  <span className="px-2 py-2 bg-[#629FB6] text-white text-center absolute top-1 right-3 rounded-md">
-                    83%
-                  </span>
+                    // className="w-[100px]"
+                  ></Image>
+                  <div className="absolute top-1 right-1 bg-[#629FB6] px-2 py-1 rounded-md">
+                    <span className="text-white">83%</span>
+                  </div>
                 </div>
-                <h3 className="">Tecno Prova 5 Pro 5G</h3>
-                <p className="text-[#9A3412] text-lg mt-5 font-semibold">
-                  Rs. 14,900
-                </p>
+                <h3 className="mt-2 mb-7">Tecno Prova 5 Pro 5G</h3>
+                <h4 className="font-bold text-[#9A3412] text-lg">Rs. 14,900</h4>
               </div>
-
-              {/* VS Styling */}
-              <div className="relative -top-8">
-                <span className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#629FB6] rounded-full px-2 py-1 text-[#fff] font-semibold border-8 border-white">
-                  VS
-                </span>
-                <span className="block border h-52 mx-10"></span>
+              <div className="relative">
+                <span className="block border mx-6 h-[250px] mt-2"></span>
+                <div className="absolute top-1/4 left-[2.33%] bg-[#629FB6] px-2 py-1 rounded-full border-white border-8">
+                  <p className="text-white">Vs</p>
+                </div>
               </div>
-
-              <div className="text-center">
+              <div className="flex flex-col items-center text-center">
                 <div className="relative">
                   <Image
                     src="/assets/comparison/2.jpg"
                     width={200}
                     height={200}
-                    alt="comparison1"
-                    className="w-[100px] h-[200px] mx-auto"
-                  />
-                  <span className="px-2 py-2 bg-[#629FB6] text-white text-center absolute top-1 left-5 rounded-md">
-                    83%
-                  </span>
+                    alt="comparison2"
+                    // className="w-[100px]"
+                  ></Image>
+                  <div className="absolute top-1 left-1 bg-[#629FB6] px-2 py-1 rounded-md">
+                    <span className="text-white">83%</span>
+                  </div>
                 </div>
-                <h3 className="">Samsung Galaxy M34 5G</h3>
-                <p className="text-[#9A3412] text-lg mt-5 font-semibold">
-                  Rs. 12,900
-                </p>
+                <h3 className="mt-2 mb-7">Samsung Galaxy M34 5G</h3>
+                <h4 className="font-bold text-[#9A3412] text-lg">Rs. 12,900</h4>
               </div>
             </div>
             <div className="text-center mt-4">
-              <button className="btn btn-outline border-2 border-[#629FB6] text-[#629FB6] rounded-md px-10">
+              <button className="btn btn-outline border-2 border-[#629FB6] text-[#629FB6] rounded-md px-10 hover:bg-[#629FB6] hover:border-[#629FB6]">
                 COMPARE
               </button>
             </div>
           </div>
           <div className="border shadow-md p-3">
-            <div className="flex justify-between items-center relative">
-              <div className="text-center">
+            <div className="flex justify-between relative">
+              <div className="flex flex-col items-center text-center">
                 <div className="relative">
                   <Image
                     src="/assets/comparison/1.jpg"
                     width={200}
                     height={200}
                     alt="comparison1"
-                    className="w-[100px] h-[200px] mx-auto"
-                  />
-                  <span className="px-2 py-2 bg-[#629FB6] text-white text-center absolute top-1 right-3 rounded-md">
-                    83%
-                  </span>
+                    // className="w-[100px]"
+                  ></Image>
+                  <div className="absolute top-1 right-1 bg-[#629FB6] px-2 py-1 rounded-md">
+                    <span className="text-white">83%</span>
+                  </div>
                 </div>
-                <h3 className="">Tecno Prova 5 Pro 5G</h3>
-                <p className="text-[#9A3412] text-lg mt-5 font-semibold">
-                  Rs. 14,900
-                </p>
+                <h3 className="mt-2 mb-7">Tecno Prova 5 Pro 5G</h3>
+                <h4 className="font-bold text-[#9A3412] text-lg">Rs. 14,900</h4>
               </div>
-
-              {/* VS Styling */}
-              <div className="relative -top-8">
-                <span className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#629FB6] rounded-full px-2 py-1 text-[#fff] font-semibold border-8 border-white">
-                  VS
-                </span>
-                <span className="block border h-52 mx-10"></span>
+              <div className="relative">
+                <span className="block border mx-6 h-[250px] mt-2"></span>
+                <div className="absolute top-1/4 left-[2.33%] bg-[#629FB6] px-2 py-1 rounded-full border-white border-8">
+                  <p className="text-white">Vs</p>
+                </div>
               </div>
-
-              <div className="text-center">
+              <div className="flex flex-col items-center text-center">
                 <div className="relative">
                   <Image
                     src="/assets/comparison/2.jpg"
                     width={200}
                     height={200}
-                    alt="comparison1"
-                    className="w-[100px] h-[200px] mx-auto"
-                  />
-                  <span className="px-2 py-2 bg-[#629FB6] text-white text-center absolute top-1 left-5 rounded-md">
-                    83%
-                  </span>
+                    alt="comparison2"
+                    // className="w-[100px]"
+                  ></Image>
+                  <div className="absolute top-1 left-1 bg-[#629FB6] px-2 py-1 rounded-md">
+                    <span className="text-white">83%</span>
+                  </div>
                 </div>
-                <h3 className="">Samsung Galaxy M34 5G</h3>
-                <p className="text-[#9A3412] text-lg mt-5 font-semibold">
-                  Rs. 12,900
-                </p>
+                <h3 className="mt-2 mb-7">Samsung Galaxy M34 5G</h3>
+                <h4 className="font-bold text-[#9A3412] text-lg">Rs. 12,900</h4>
               </div>
             </div>
             <div className="text-center mt-4">
-              <button className="btn btn-outline border-2 border-[#629FB6] text-[#629FB6] rounded-md px-10">
+              <button className="btn btn-outline border-2 border-[#629FB6] text-[#629FB6] rounded-md px-10 hover:bg-[#629FB6] hover:border-[#629FB6]">
                 COMPARE
               </button>
             </div>

@@ -18,7 +18,7 @@ const NewsLetter = () => {
             placeholder="Your Email Address"
             className="input input-bordered w-full"
           />
-          <button className="btn bg-[#515CA9] text-white px-6 py-3">
+          <button className="btn bg-[#515CA9] border-[#515CA9] text-white px-6 py-3 hover:border-[#515CA9] hover:text-[#515CA9]">
             Subscribe
           </button>
         </div>
