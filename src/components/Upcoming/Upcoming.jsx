@@ -35,16 +35,24 @@ const Upcoming = () => {
           </Link>
         </p>
       </div>
-      <div className="bg-white py-3">
+      <div className="bg-white py-3 px-3">
         <Swiper
           breakpoints={{
-            320: { slidesPerView: 2 }, // Mobile
-            640: { slidesPerView: 2 }, // Tablet
-            768: { slidesPerView: 3 }, // Small Desktop
-            1024: { slidesPerView: 5 }, // Large Desktop
+            320: {
+              slidesPerView: 2,
+            }, // Mobile
+            640: {
+              slidesPerView: 2,
+            }, // Tablet
+            768: {
+              slidesPerView: 3,
+            }, // Small Desktop
+            1024: {
+              slidesPerView: 5,
+            }, // Large Desktop
           }}
           centeredSlides={false}
-          spaceBetween={5}
+          spaceBetween={10}
           navigation={true}
           modules={[Pagination, Navigation]}
           className="mySwiper"
