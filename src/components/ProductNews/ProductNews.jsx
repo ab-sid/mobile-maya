@@ -7,10 +7,12 @@ import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 const ProductNews = () => {
   return (
     <div className="grid grid-cols-12 gap-4 pt-4 mb-10">
-      <div className="col-span-8">
+      <div className="col-span-12 md:col-span-8">
         {/* title */}
         <div className="flex justify-between bg-white mb-1 p-3">
-          <h2 className="text-xl font-semibold text-[#5A5759]">Product News</h2>
+          <h2 className="text-lg md:text-xl font-semibold text-[#5A5759]">
+            Product News
+          </h2>
           <p className="text-[#344FF6]">
             <Link href="#" className="flex items-center">
               View More{" "}
@@ -21,12 +23,13 @@ const ProductNews = () => {
           </p>
         </div>
         <div className="p-3 border-2 rounded">
-          <div className="flex space-x-4 mb-3 bg-white rounded-sm">
+          <div className="flex flex-col md:flex-row space-x-4 mb-3 bg-white rounded-sm">
             <Image
               src="/assets/news/news3.jpg"
               width={200}
               height={200}
               alt="news"
+              className="w-full md:w-[200px]"
             ></Image>
             <div className="pr-4 pb-2">
               <h3 className="text-xl font-bold my-2">
@@ -40,12 +43,13 @@ const ProductNews = () => {
               </p>
             </div>
           </div>
-          <div className="flex space-x-4 mb-3 bg-white rounded-sm">
+          <div className="flex flex-col md:flex-row space-x-4 mb-3 bg-white rounded-sm">
             <Image
               src="/assets/news/news2.jpg"
               width={200}
               height={200}
               alt="news"
+              className="w-full md:w-[200px]"
             ></Image>
             <div className="pr-4 pb-2">
               <h3 className="text-xl font-bold my-2">
@@ -59,12 +63,13 @@ const ProductNews = () => {
               </p>
             </div>
           </div>
-          <div className="flex space-x-4 bg-white rounded-sm">
+          <div className="flex flex-col md:flex-row space-x-4 bg-white rounded-sm">
             <Image
               src="/assets/news/news3.jpg"
               width={200}
               height={200}
               alt="news"
+              className="w-full md:w-[200px]"
             ></Image>
             <div className="pr-4 pb-2">
               <h3 className="text-xl font-bold my-2">
@@ -80,10 +85,12 @@ const ProductNews = () => {
           </div>
         </div>
       </div>
-      <div className="col-span-4">
+      <div className="col-span-12 md:col-span-4">
         {/* title */}
         <div className="flex justify-between bg-white mb-1 p-3">
-          <h2 className="text-xl font-semibold text-[#5A5759]">Brands</h2>
+          <h2 className="text-lg md:text-xl font-semibold text-[#5A5759]">
+            Brands
+          </h2>
           <p className="text-[#344FF6]">
             <Link href="#" className="flex items-center">
               View More{" "}

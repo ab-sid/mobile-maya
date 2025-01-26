@@ -54,7 +54,7 @@ export const TwoThumbs = ({ rtl }) => {
           );
         }}
       />
-      <p className="font-bold text-[#5D5A5C]">
+      <p className="font-bold text-[#5D5A5C] text-center">
         TK.
         <input
           type="text"

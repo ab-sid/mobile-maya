@@ -9,7 +9,7 @@ const LatestCOmparison = () => {
   return (
     <div className="my-4">
       <div className="flex justify-between bg-white mb-1 p-3 items-center">
-        <h2 className="text-xl font-semibold text-[#5A5759]">
+        <h2 className="text-lg md:text-xl font-semibold text-[#5A5759]">
           Latest Comparison
         </h2>
         <p className="text-[#344FF6]">
@@ -22,7 +22,7 @@ const LatestCOmparison = () => {
         </p>
       </div>
       <div className="p-4 bg-white">
-        <div className="grid grid-cols-4 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
           <div className="border shadow-md p-3">
             <div className="flex justify-between relative">
               <div className="flex flex-col items-center text-center">

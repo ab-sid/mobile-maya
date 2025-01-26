@@ -9,7 +9,7 @@ const LatestMobile = () => {
   return (
     <div>
       <div className="flex justify-between bg-white mb-1 p-3 items-center">
-        <h2 className="text-xl font-semibold text-[#5A5759]">
+        <h2 className="text-lg md:text-xl font-semibold text-[#5A5759]">
           Latest Mobile Phones
         </h2>
         <p className="text-[#344FF6]">
@@ -22,8 +22,8 @@ const LatestMobile = () => {
         </p>
       </div>
       <div className="p-4 bg-white">
-        <div className="grid grid-cols-5 gap-3">
-          <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+          <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
             <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
               <p className="mr-1 ml-2 text-xl">4.5</p>
               <span className="text-[12px] text-green-600">
@@ -54,7 +54,7 @@ const LatestMobile = () => {
               </button>
             </div>
           </div>
-          <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+          <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
             <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
               <p className="mr-1 ml-2 text-xl">4.5</p>
               <span className="text-[12px] text-green-600">
@@ -85,7 +85,7 @@ const LatestMobile = () => {
               </button>
             </div>
           </div>
-          <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+          <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
             <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
               <p className="mr-1 ml-2 text-xl">4.5</p>
               <span className="text-[12px] text-green-600">
@@ -116,7 +116,7 @@ const LatestMobile = () => {
               </button>
             </div>
           </div>
-          <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+          <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
             <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
               <p className="mr-1 ml-2 text-xl">4.5</p>
               <span className="text-[12px] text-green-600">
@@ -147,7 +147,7 @@ const LatestMobile = () => {
               </button>
             </div>
           </div>
-          <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+          <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
             <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
               <p className="mr-1 ml-2 text-xl">4.5</p>
               <span className="text-[12px] text-green-600">
@@ -178,7 +178,7 @@ const LatestMobile = () => {
               </button>
             </div>
           </div>
-          <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+          <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
             <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
               <p className="mr-1 ml-2 text-xl">4.5</p>
               <span className="text-[12px] text-green-600">
@@ -209,7 +209,7 @@ const LatestMobile = () => {
               </button>
             </div>
           </div>
-          <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+          <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
             <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
               <p className="mr-1 ml-2 text-xl">4.5</p>
               <span className="text-[12px] text-green-600">
@@ -240,7 +240,7 @@ const LatestMobile = () => {
               </button>
             </div>
           </div>
-          <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+          <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
             <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
               <p className="mr-1 ml-2 text-xl">4.5</p>
               <span className="text-[12px] text-green-600">
@@ -271,7 +271,7 @@ const LatestMobile = () => {
               </button>
             </div>
           </div>
-          <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+          <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
             <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
               <p className="mr-1 ml-2 text-xl">4.5</p>
               <span className="text-[12px] text-green-600">
@@ -302,7 +302,7 @@ const LatestMobile = () => {
               </button>
             </div>
           </div>
-          <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+          <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
             <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
               <p className="mr-1 ml-2 text-xl">4.5</p>
               <span className="text-[12px] text-green-600">

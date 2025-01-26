@@ -15,7 +15,7 @@ const Upcoming = () => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    setIsMounted(true); // Ensures Swiper renders after hydration
+    setIsMounted(true);
   }, []);
 
   if (!isMounted) return null;
@@ -23,7 +23,7 @@ const Upcoming = () => {
   return (
     <div className="">
       <div className="flex justify-between bg-white mb-1 p-3">
-        <h2 className="text-xl font-semibold text-[#5A5759]">
+        <h2 className="text-lg md:text-xl font-semibold text-[#5A5759]">
           Latest & Upcoming Mobile
         </h2>
         <p className="text-[#344FF6]">
@@ -37,18 +37,20 @@ const Upcoming = () => {
       </div>
       <div className="bg-white py-3">
         <Swiper
-          slidesPerView={5}
+          breakpoints={{
+            320: { slidesPerView: 2 }, // Mobile
+            640: { slidesPerView: 2 }, // Tablet
+            768: { slidesPerView: 3 }, // Small Desktop
+            1024: { slidesPerView: 5 }, // Large Desktop
+          }}
           centeredSlides={false}
           spaceBetween={5}
-          // pagination={{
-          //   type: "fraction",
-          // }}
           navigation={true}
           modules={[Pagination, Navigation]}
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+            <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
                 <p className="mr-1 ml-2 text-xl">4.5</p>
                 <span className="text-[12px] text-green-600">
@@ -81,7 +83,7 @@ const Upcoming = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+            <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
                 <p className="mr-1 ml-2 text-xl">4.5</p>
                 <span className="text-[12px] text-green-600">
@@ -114,7 +116,7 @@ const Upcoming = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+            <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
                 <p className="mr-1 ml-2 text-xl">4.5</p>
                 <span className="text-[12px] text-green-600">
@@ -147,7 +149,7 @@ const Upcoming = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+            <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
                 <p className="mr-1 ml-2 text-xl">4.5</p>
                 <span className="text-[12px] text-green-600">
@@ -180,7 +182,7 @@ const Upcoming = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+            <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
                 <p className="mr-1 ml-2 text-xl">4.5</p>
                 <span className="text-[12px] text-green-600">
@@ -213,7 +215,7 @@ const Upcoming = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+            <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
                 <p className="mr-1 ml-2 text-xl">4.5</p>
                 <span className="text-[12px] text-green-600">
@@ -246,7 +248,7 @@ const Upcoming = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+            <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
                 <p className="mr-1 ml-2 text-xl">4.5</p>
                 <span className="text-[12px] text-green-600">
@@ -279,7 +281,7 @@ const Upcoming = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+            <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
                 <p className="mr-1 ml-2 text-xl">4.5</p>
                 <span className="text-[12px] text-green-600">
@@ -312,7 +314,7 @@ const Upcoming = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+            <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
                 <p className="mr-1 ml-2 text-xl">4.5</p>
                 <span className="text-[12px] text-green-600">
@@ -345,7 +347,7 @@ const Upcoming = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+            <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
                 <p className="mr-1 ml-2 text-xl">4.5</p>
                 <span className="text-[12px] text-green-600">
@@ -378,7 +380,7 @@ const Upcoming = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+            <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
                 <p className="mr-1 ml-2 text-xl">4.5</p>
                 <span className="text-[12px] text-green-600">
@@ -411,7 +413,7 @@ const Upcoming = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+            <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
                 <p className="mr-1 ml-2 text-xl">4.5</p>
                 <span className="text-[12px] text-green-600">
