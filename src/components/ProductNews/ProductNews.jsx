@@ -10,7 +10,7 @@ const ProductNews = () => {
       <div className="col-span-12 md:col-span-8">
         {/* title */}
         <div className="flex justify-between bg-white mb-1 p-3">
-          <h2 className="text-lg md:text-xl font-semibold text-[#5A5759]">
+          <h2 className="text-lg uppercase font-semibold text-[#5A5759]">
             Product News
           </h2>
           <p className="text-[#344FF6]">
@@ -32,7 +32,7 @@ const ProductNews = () => {
               className="w-full md:w-[200px]"
             ></Image>
             <div className="pr-4 pb-2">
-              <h3 className="text-xl font-bold my-2">
+              <h3 className="text-lg font-bold my-2">
                 Samsung Galaxy S24 Ultra rated as the best display smartphone by
                 DXOmark
               </h3>
@@ -52,7 +52,7 @@ const ProductNews = () => {
               className="w-full md:w-[200px]"
             ></Image>
             <div className="pr-4 pb-2">
-              <h3 className="text-xl font-bold my-2">
+              <h3 className="text-lg font-bold my-2">
                 Samsung Galaxy S24 Ultra rated as the best display smartphone by
                 DXOmark
               </h3>
@@ -72,7 +72,7 @@ const ProductNews = () => {
               className="w-full md:w-[200px]"
             ></Image>
             <div className="pr-4 pb-2">
-              <h3 className="text-xl font-bold my-2">
+              <h3 className="text-lg font-bold my-2">
                 Samsung Galaxy S24 Ultra rated as the best display smartphone by
                 DXOmark
               </h3>
@@ -88,7 +88,7 @@ const ProductNews = () => {
       <div className="col-span-12 md:col-span-4">
         {/* title */}
         <div className="flex justify-between bg-white mb-1 p-3">
-          <h2 className="text-lg md:text-xl font-semibold text-[#5A5759]">
+          <h2 className="text-lg uppercase font-semibold text-[#5A5759]">
             Brands
           </h2>
           <p className="text-[#344FF6]">

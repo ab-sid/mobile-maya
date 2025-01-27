@@ -23,7 +23,7 @@ const Upcoming = () => {
   return (
     <div className="">
       <div className="flex justify-between bg-white mb-1 p-3">
-        <h2 className="text-lg md:text-xl font-semibold text-[#5A5759]">
+        <h2 className="text-lg uppercase font-semibold text-[#5A5759]">
           Latest & Upcoming Mobile
         </h2>
         <p className="text-[#344FF6]">
@@ -60,7 +60,7 @@ const Upcoming = () => {
           <SwiperSlide>
             <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
-                <p className="mr-1 ml-2 text-xl">4.5</p>
+                <p className="mr-1 ml-2 text-base text-[#5A5759]">4.5</p>
                 <span className="text-[12px] text-green-600">
                   <FaStar />
                 </span>
@@ -74,7 +74,9 @@ const Upcoming = () => {
                   alt="latest1"
                   className="mx-auto transform group-hover:scale-150 transition-transform duration-300"
                 />
-                <h3 className="font-medium">Xiomi POCO C53</h3>
+                <h3 className="font-semibold text-sm text-[#5A5759]">
+                  Xiomi POCO C53
+                </h3>
                 <h5 className="flex items-center justify-center text-xl text-[#344FF6] space-x-2">
                   <span className="text-xl text-[#344FF6]">
                     <TbCurrencyTaka />
@@ -84,7 +86,7 @@ const Upcoming = () => {
               </div>
 
               <div className="absolute bottom-0 w-full">
-                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C]">
+                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C] font-light text-base">
                   <span>+</span> Compare
                 </button>
               </div>
@@ -93,7 +95,7 @@ const Upcoming = () => {
           <SwiperSlide>
             <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
-                <p className="mr-1 ml-2 text-xl">4.5</p>
+                <p className="mr-1 ml-2 text-base text-[#5A5759]">4.5</p>
                 <span className="text-[12px] text-green-600">
                   <FaStar />
                 </span>
@@ -107,7 +109,9 @@ const Upcoming = () => {
                   alt="latest1"
                   className="mx-auto transform group-hover:scale-150 transition-transform duration-300"
                 />
-                <h3 className="font-medium">Xiomi POCO C53</h3>
+                <h3 className="font-semibold text-sm text-[#5A5759]">
+                  Xiomi POCO C53
+                </h3>
                 <h5 className="flex items-center justify-center text-xl text-[#344FF6] space-x-2">
                   <span className="text-xl text-[#344FF6]">
                     <TbCurrencyTaka />
@@ -117,7 +121,7 @@ const Upcoming = () => {
               </div>
 
               <div className="absolute bottom-0 w-full">
-                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C]">
+                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C] font-light text-base">
                   <span>+</span> Compare
                 </button>
               </div>
@@ -126,7 +130,7 @@ const Upcoming = () => {
           <SwiperSlide>
             <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
-                <p className="mr-1 ml-2 text-xl">4.5</p>
+                <p className="mr-1 ml-2 text-base text-[#5A5759]">4.5</p>
                 <span className="text-[12px] text-green-600">
                   <FaStar />
                 </span>
@@ -140,7 +144,9 @@ const Upcoming = () => {
                   alt="latest1"
                   className="mx-auto transform group-hover:scale-150 transition-transform duration-300"
                 />
-                <h3 className="font-medium">Xiomi POCO C53</h3>
+                <h3 className="font-semibold text-sm text-[#5A5759]">
+                  Xiomi POCO C53
+                </h3>
                 <h5 className="flex items-center justify-center text-xl text-[#344FF6] space-x-2">
                   <span className="text-xl text-[#344FF6]">
                     <TbCurrencyTaka />
@@ -150,7 +156,7 @@ const Upcoming = () => {
               </div>
 
               <div className="absolute bottom-0 w-full">
-                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C]">
+                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C] font-light text-base">
                   <span>+</span> Compare
                 </button>
               </div>
@@ -159,7 +165,7 @@ const Upcoming = () => {
           <SwiperSlide>
             <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
-                <p className="mr-1 ml-2 text-xl">4.5</p>
+                <p className="mr-1 ml-2 text-base text-[#5A5759]">4.5</p>
                 <span className="text-[12px] text-green-600">
                   <FaStar />
                 </span>
@@ -173,7 +179,9 @@ const Upcoming = () => {
                   alt="latest1"
                   className="mx-auto transform group-hover:scale-150 transition-transform duration-300"
                 />
-                <h3 className="font-medium">Xiomi POCO C53</h3>
+                <h3 className="font-semibold text-sm text-[#5A5759]">
+                  Xiomi POCO C53
+                </h3>
                 <h5 className="flex items-center justify-center text-xl text-[#344FF6] space-x-2">
                   <span className="text-xl text-[#344FF6]">
                     <TbCurrencyTaka />
@@ -183,7 +191,7 @@ const Upcoming = () => {
               </div>
 
               <div className="absolute bottom-0 w-full">
-                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C]">
+                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C] font-light text-base">
                   <span>+</span> Compare
                 </button>
               </div>
@@ -192,7 +200,7 @@ const Upcoming = () => {
           <SwiperSlide>
             <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
-                <p className="mr-1 ml-2 text-xl">4.5</p>
+                <p className="mr-1 ml-2 text-base text-[#5A5759]">4.5</p>
                 <span className="text-[12px] text-green-600">
                   <FaStar />
                 </span>
@@ -206,7 +214,9 @@ const Upcoming = () => {
                   alt="latest1"
                   className="mx-auto transform group-hover:scale-150 transition-transform duration-300"
                 />
-                <h3 className="font-medium">Xiomi POCO C53</h3>
+                <h3 className="font-semibold text-sm text-[#5A5759]">
+                  Xiomi POCO C53
+                </h3>
                 <h5 className="flex items-center justify-center text-xl text-[#344FF6] space-x-2">
                   <span className="text-xl text-[#344FF6]">
                     <TbCurrencyTaka />
@@ -216,7 +226,7 @@ const Upcoming = () => {
               </div>
 
               <div className="absolute bottom-0 w-full">
-                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C]">
+                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C] font-light text-base">
                   <span>+</span> Compare
                 </button>
               </div>
@@ -225,7 +235,7 @@ const Upcoming = () => {
           <SwiperSlide>
             <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
-                <p className="mr-1 ml-2 text-xl">4.5</p>
+                <p className="mr-1 ml-2 text-base text-[#5A5759]">4.5</p>
                 <span className="text-[12px] text-green-600">
                   <FaStar />
                 </span>
@@ -239,7 +249,9 @@ const Upcoming = () => {
                   alt="latest1"
                   className="mx-auto transform group-hover:scale-150 transition-transform duration-300"
                 />
-                <h3 className="font-medium">Xiomi POCO C53</h3>
+                <h3 className="font-semibold text-sm text-[#5A5759]">
+                  Xiomi POCO C53
+                </h3>
                 <h5 className="flex items-center justify-center text-xl text-[#344FF6] space-x-2">
                   <span className="text-xl text-[#344FF6]">
                     <TbCurrencyTaka />
@@ -249,7 +261,7 @@ const Upcoming = () => {
               </div>
 
               <div className="absolute bottom-0 w-full">
-                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C]">
+                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C] font-light text-base">
                   <span>+</span> Compare
                 </button>
               </div>
@@ -258,7 +270,7 @@ const Upcoming = () => {
           <SwiperSlide>
             <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
-                <p className="mr-1 ml-2 text-xl">4.5</p>
+                <p className="mr-1 ml-2 text-base text-[#5A5759]">4.5</p>
                 <span className="text-[12px] text-green-600">
                   <FaStar />
                 </span>
@@ -272,7 +284,9 @@ const Upcoming = () => {
                   alt="latest1"
                   className="mx-auto transform group-hover:scale-150 transition-transform duration-300"
                 />
-                <h3 className="font-medium">Xiomi POCO C53</h3>
+                <h3 className="font-semibold text-sm text-[#5A5759]">
+                  Xiomi POCO C53
+                </h3>
                 <h5 className="flex items-center justify-center text-xl text-[#344FF6] space-x-2">
                   <span className="text-xl text-[#344FF6]">
                     <TbCurrencyTaka />
@@ -282,7 +296,7 @@ const Upcoming = () => {
               </div>
 
               <div className="absolute bottom-0 w-full">
-                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C]">
+                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C] font-light text-base">
                   <span>+</span> Compare
                 </button>
               </div>
@@ -291,7 +305,7 @@ const Upcoming = () => {
           <SwiperSlide>
             <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
-                <p className="mr-1 ml-2 text-xl">4.5</p>
+                <p className="mr-1 ml-2 text-base text-[#5A5759]">4.5</p>
                 <span className="text-[12px] text-green-600">
                   <FaStar />
                 </span>
@@ -305,7 +319,9 @@ const Upcoming = () => {
                   alt="latest1"
                   className="mx-auto transform group-hover:scale-150 transition-transform duration-300"
                 />
-                <h3 className="font-medium">Xiomi POCO C53</h3>
+                <h3 className="font-semibold text-sm text-[#5A5759]">
+                  Xiomi POCO C53
+                </h3>
                 <h5 className="flex items-center justify-center text-xl text-[#344FF6] space-x-2">
                   <span className="text-xl text-[#344FF6]">
                     <TbCurrencyTaka />
@@ -315,7 +331,7 @@ const Upcoming = () => {
               </div>
 
               <div className="absolute bottom-0 w-full">
-                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C]">
+                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C] font-light text-base">
                   <span>+</span> Compare
                 </button>
               </div>
@@ -324,7 +340,7 @@ const Upcoming = () => {
           <SwiperSlide>
             <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
-                <p className="mr-1 ml-2 text-xl">4.5</p>
+                <p className="mr-1 ml-2 text-base text-[#5A5759]">4.5</p>
                 <span className="text-[12px] text-green-600">
                   <FaStar />
                 </span>
@@ -338,7 +354,9 @@ const Upcoming = () => {
                   alt="latest1"
                   className="mx-auto transform group-hover:scale-150 transition-transform duration-300"
                 />
-                <h3 className="font-medium">Xiomi POCO C53</h3>
+                <h3 className="font-semibold text-sm text-[#5A5759]">
+                  Xiomi POCO C53
+                </h3>
                 <h5 className="flex items-center justify-center text-xl text-[#344FF6] space-x-2">
                   <span className="text-xl text-[#344FF6]">
                     <TbCurrencyTaka />
@@ -348,7 +366,7 @@ const Upcoming = () => {
               </div>
 
               <div className="absolute bottom-0 w-full">
-                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C]">
+                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C] font-light text-base">
                   <span>+</span> Compare
                 </button>
               </div>
@@ -357,7 +375,7 @@ const Upcoming = () => {
           <SwiperSlide>
             <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
-                <p className="mr-1 ml-2 text-xl">4.5</p>
+                <p className="mr-1 ml-2 text-base text-[#5A5759]">4.5</p>
                 <span className="text-[12px] text-green-600">
                   <FaStar />
                 </span>
@@ -371,7 +389,9 @@ const Upcoming = () => {
                   alt="latest1"
                   className="mx-auto transform group-hover:scale-150 transition-transform duration-300"
                 />
-                <h3 className="font-medium">Xiomi POCO C53</h3>
+                <h3 className="font-semibold text-sm text-[#5A5759]">
+                  Xiomi POCO C53
+                </h3>
                 <h5 className="flex items-center justify-center text-xl text-[#344FF6] space-x-2">
                   <span className="text-xl text-[#344FF6]">
                     <TbCurrencyTaka />
@@ -381,7 +401,7 @@ const Upcoming = () => {
               </div>
 
               <div className="absolute bottom-0 w-full">
-                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C]">
+                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C] font-light text-base">
                   <span>+</span> Compare
                 </button>
               </div>
@@ -390,7 +410,7 @@ const Upcoming = () => {
           <SwiperSlide>
             <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
-                <p className="mr-1 ml-2 text-xl">4.5</p>
+                <p className="mr-1 ml-2 text-base text-[#5A5759]">4.5</p>
                 <span className="text-[12px] text-green-600">
                   <FaStar />
                 </span>
@@ -404,7 +424,9 @@ const Upcoming = () => {
                   alt="latest1"
                   className="mx-auto transform group-hover:scale-150 transition-transform duration-300"
                 />
-                <h3 className="font-medium">Xiomi POCO C53</h3>
+                <h3 className="font-semibold text-sm text-[#5A5759]">
+                  Xiomi POCO C53
+                </h3>
                 <h5 className="flex items-center justify-center text-xl text-[#344FF6] space-x-2">
                   <span className="text-xl text-[#344FF6]">
                     <TbCurrencyTaka />
@@ -414,7 +436,7 @@ const Upcoming = () => {
               </div>
 
               <div className="absolute bottom-0 w-full">
-                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C]">
+                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C] font-light text-base">
                   <span>+</span> Compare
                 </button>
               </div>
@@ -423,7 +445,7 @@ const Upcoming = () => {
           <SwiperSlide>
             <div className="md:w-60 h-[330px] border relative shadow-md overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
               <div className="flex items-center mt-3 ml-3 bg-green-50 p-1 rounded-full w-[60px]">
-                <p className="mr-1 ml-2 text-xl">4.5</p>
+                <p className="mr-1 ml-2 text-base text-[#5A5759]">4.5</p>
                 <span className="text-[12px] text-green-600">
                   <FaStar />
                 </span>
@@ -437,7 +459,9 @@ const Upcoming = () => {
                   alt="latest1"
                   className="mx-auto transform group-hover:scale-150 transition-transform duration-300"
                 />
-                <h3 className="font-medium">Xiomi POCO C53</h3>
+                <h3 className="font-semibold text-sm text-[#5A5759]">
+                  Xiomi POCO C53
+                </h3>
                 <h5 className="flex items-center justify-center text-xl text-[#344FF6] space-x-2">
                   <span className="text-xl text-[#344FF6]">
                     <TbCurrencyTaka />
@@ -447,7 +471,7 @@ const Upcoming = () => {
               </div>
 
               <div className="absolute bottom-0 w-full">
-                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C]">
+                <button className="btn bg-[#E5E5E5] rounded-none w-full text-[#7D7B7C] font-light text-base">
                   <span>+</span> Compare
                 </button>
               </div>

@@ -38,7 +38,7 @@ const Comparison = () => {
         {/* Right Column */}
         <div className="col-span-12 md:col-span-4">
           <h2
-            className="text-xl font-bold cursor-pointer flex items-center md:cursor-default justify-between"
+            className="text-[#404040] text-xl font-bold cursor-pointer flex items-center md:cursor-default justify-between"
             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
           >
             By Price
@@ -113,7 +113,7 @@ const Comparison = () => {
         {/* By Brand */}
         <div className="col-span-12 md:col-span-6">
           <h2
-            className="text-xl font-bold flex items-center md:block cursor-pointer md:cursor-default justify-between"
+            className="text-[#404040] text-xl font-bold flex items-center md:block cursor-pointer md:cursor-default justify-between"
             onClick={() => setIsBrandDropdownOpen(!isBrandDropdownOpen)} // Toggle dropdown for mobile
           >
             By Brand
@@ -234,7 +234,7 @@ const Comparison = () => {
         {/* By Feature */}
         <div className="col-span-12 md:col-span-6">
           <h2
-            className="font-bold text-xl flex items-center cursor-pointer md:cursor-default justify-between"
+            className="text-[#404040] font-bold text-xl flex items-center cursor-pointer md:cursor-default justify-between"
             onClick={() => setIsFeatureDropdownOpen(!isFeatureDropdownOpen)} // Toggle dropdown for mobile
           >
             By Feature

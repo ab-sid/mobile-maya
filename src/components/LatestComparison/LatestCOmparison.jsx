@@ -9,7 +9,7 @@ const LatestCOmparison = () => {
   return (
     <div className="my-4">
       <div className="flex justify-between bg-white mb-1 p-3 items-center">
-        <h2 className="text-lg md:text-xl font-semibold text-[#5A5759]">
+        <h2 className="text-lg uppercase font-semibold text-[#5A5759]">
           Latest Comparison
         </h2>
         <p className="text-[#344FF6]">
@@ -38,7 +38,9 @@ const LatestCOmparison = () => {
                     <span className="text-white">83%</span>
                   </div>
                 </div>
-                <h3 className="mt-2 mb-7">Tecno Prova 5 Pro 5G</h3>
+                <h3 className="mt-2 mb-7 text-[#5A5759]">
+                  Tecno Prova 5 Pro 5G
+                </h3>
                 <h4 className="font-bold text-[#9A3412] text-lg">Rs. 14,900</h4>
               </div>
               <div className="relative">
@@ -60,7 +62,9 @@ const LatestCOmparison = () => {
                     <span className="text-white">83%</span>
                   </div>
                 </div>
-                <h3 className="mt-2 mb-7">Samsung Galaxy M34 5G</h3>
+                <h3 className="mt-2 mb-7 text-[#5A5759]">
+                  Samsung Galaxy M34 5G
+                </h3>
                 <h4 className="font-bold text-[#9A3412] text-lg">Rs. 12,900</h4>
               </div>
             </div>
@@ -85,7 +89,9 @@ const LatestCOmparison = () => {
                     <span className="text-white">83%</span>
                   </div>
                 </div>
-                <h3 className="mt-2 mb-7">Tecno Prova 5 Pro 5G</h3>
+                <h3 className="mt-2 mb-7 text-[#5A5759]">
+                  Tecno Prova 5 Pro 5G
+                </h3>
                 <h4 className="font-bold text-[#9A3412] text-lg">Rs. 14,900</h4>
               </div>
               <div className="relative">
@@ -107,7 +113,9 @@ const LatestCOmparison = () => {
                     <span className="text-white">83%</span>
                   </div>
                 </div>
-                <h3 className="mt-2 mb-7">Samsung Galaxy M34 5G</h3>
+                <h3 className="mt-2 mb-7 text-[#5A5759]">
+                  Samsung Galaxy M34 5G
+                </h3>
                 <h4 className="font-bold text-[#9A3412] text-lg">Rs. 12,900</h4>
               </div>
             </div>
@@ -132,7 +140,9 @@ const LatestCOmparison = () => {
                     <span className="text-white">83%</span>
                   </div>
                 </div>
-                <h3 className="mt-2 mb-7">Tecno Prova 5 Pro 5G</h3>
+                <h3 className="mt-2 mb-7 text-[#5A5759]">
+                  Tecno Prova 5 Pro 5G
+                </h3>
                 <h4 className="font-bold text-[#9A3412] text-lg">Rs. 14,900</h4>
               </div>
               <div className="relative">
@@ -154,7 +164,9 @@ const LatestCOmparison = () => {
                     <span className="text-white">83%</span>
                   </div>
                 </div>
-                <h3 className="mt-2 mb-7">Samsung Galaxy M34 5G</h3>
+                <h3 className="mt-2 mb-7 text-[#5A5759]">
+                  Samsung Galaxy M34 5G
+                </h3>
                 <h4 className="font-bold text-[#9A3412] text-lg">Rs. 12,900</h4>
               </div>
             </div>
@@ -179,7 +191,9 @@ const LatestCOmparison = () => {
                     <span className="text-white">83%</span>
                   </div>
                 </div>
-                <h3 className="mt-2 mb-7">Tecno Prova 5 Pro 5G</h3>
+                <h3 className="mt-2 mb-7 text-[#5A5759]">
+                  Tecno Prova 5 Pro 5G
+                </h3>
                 <h4 className="font-bold text-[#9A3412] text-lg">Rs. 14,900</h4>
               </div>
               <div className="relative">
@@ -201,7 +215,9 @@ const LatestCOmparison = () => {
                     <span className="text-white">83%</span>
                   </div>
                 </div>
-                <h3 className="mt-2 mb-7">Samsung Galaxy M34 5G</h3>
+                <h3 className="mt-2 mb-7 text-[#5A5759]">
+                  Samsung Galaxy M34 5G
+                </h3>
                 <h4 className="font-bold text-[#9A3412] text-lg">Rs. 12,900</h4>
               </div>
             </div>
