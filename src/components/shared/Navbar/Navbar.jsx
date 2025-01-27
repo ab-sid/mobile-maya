@@ -122,7 +122,7 @@ const Navbar = () => {
       {/* nav bottom */}
       <div className="bg-[#F2F3F5] py-0 md:py-3 shadow-md z-10 relative">
         <nav className="max-w-7xl mx-auto">
-          <ul className="hidden lg:flex space-x-6">
+          <ul className="hidden lg:flex space-x-4">
             <li className="text-[#5A5759] hover:text-[#ffa500] font-semibold">
               <Link href="#">Home</Link>
             </li>
